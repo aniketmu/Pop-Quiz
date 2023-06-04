@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #84ffc9, #aab2ff, #eca0ff);
+}
+
+#container {
+  background-image: linear-gradient(to right, #f9cdc3, #facefb);
+  border: 2px brown solid;
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.topics {
+  display: flex;
+  flex-direction: row;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.music {
+  margin: 5px;
+  border: 1px black solid;
+  padding: 10px 50px;
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.modern-Art {
+  margin: 5px;
+  border: 1px black solid;
+  padding: 10px 50px;
+  color: black;
+  background-color: #0066b2;
+}
+
+.coding {
+  margin: 5px;
+  border: 1px black solid;
+  padding: 10px 50px;
+  color: black;
+  background-color: #097969;
+}
+
+.quizzQuestions {
+  display: none;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.not-answered {
+  color: gray;
+}
+
+.intro {
+  color: #00ffff;
+}
+
+.instru {
+  color: #cd853f;
+}

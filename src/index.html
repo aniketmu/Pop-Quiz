@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <h1 class="intro">Welcome to Pop Quiz</h1>
+        <h2 class="instru">Please Select a topic from the below options</h2>
+        <div class="topics">
+          <div class="music" id="music">Music</div>
+          <div class="modern-Art" id="modern-Art">Modern Art</div>
+          <div class="coding" id="coding">Coding</div>
+        </div>
+      </div>
+      <div id="quizQuestions" style="display: none">
+        <h1 id="questions"></h1>
+        <div id="options"></div>
+        <button id="nextQtn">Next</button>
+        <button id="prevQtn">Previous</button>
+      </div>
+      <div id="quizCompletion" style="display: none"></div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
